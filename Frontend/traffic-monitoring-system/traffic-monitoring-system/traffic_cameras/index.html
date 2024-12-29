@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Cameras</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h1>ITS - Delhi</h1>
+        <div class="search">
+          <input type="text" id="search" placeholder="Search by location..." />
+        </div>
+        <button>
+          <a href="index1.html"> Traffic Data</a>
+        </button>
+
+        <ul id="cameraList"></ul>
+      </div>
+
+      <div id="map"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
